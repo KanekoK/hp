@@ -1,0 +1,42 @@
+body{
+	width: 100%;
+	font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+}
+h1{
+	margin: 0;
+	padding: 0;
+}
+h2{
+	margin: 0;
+	padding: 0;
+}
+header{
+	width: 100%;
+	margin: 0 auto;
+	background: #ddd;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+header #header h1{
+	text-align: center;
+}
+header #header h2{
+	text-align: center;
+}
+#main{
+	height: 900px;
+	background-image: url("../img/IMG_7826.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+#main .koyomi{
+	text-align: center;
+}
+#main .seireki{
+	margin-top: 30px;
+	width: 80px;
+}
+#main input:hover{
+	opacity: 0.8;
+}
+
