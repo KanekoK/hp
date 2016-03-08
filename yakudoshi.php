@@ -26,6 +26,7 @@
 		$eto++;
 	}
 
+// 男性
 	$man_yaku1 = $kotoshi - 24;
 	$man_maeyaku2 = $kotoshi -40;
 	$man_yaku2 = $kotoshi - 41;
@@ -38,6 +39,7 @@
 	$man_atoyakudoshi2 = $arr_reki_eto[$man_atoyaku2];
 	$man_yakudoshi3 = $arr_reki_eto[$man_yaku3];
 
+// 女性
 	$woman_yaku1 = $kotoshi - 18;
 	$woman_maeyaku2 = $kotoshi -31;
 	$woman_yaku2 = $kotoshi -32;
