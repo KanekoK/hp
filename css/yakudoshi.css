@@ -1,0 +1,71 @@
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+body{
+    width: 1000px;
+    margin: 0 auto;
+    font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+    color: #eee;
+    background: url("../img/120688196163516209098.jpg");
+    background-repeat: no-repeat;
+}
+h1{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    margin: 0;
+    padding: 0;
+}
+header #header h1 {
+    padding-top: 30px;
+    text-align: center;
+    color: #5AFF00;
+    font-size: 50px;
+}
+#main {
+    width: 100%;
+    height: 700px;
+
+}
+#main .common {
+    margin: 0 auto;
+    padding-top: 50px;
+}
+#main .man {
+    padding-left: 50px;
+    float: left;
+}
+#main table{
+    color: #FF3000;
+    font-size: 25px;
+    margin-top: 30px;
+}
+#main th {
+    width: 100px;
+    height: 72px;
+}
+#main h1 {
+    font-size: 45px;
+}
+#main .man h1 {
+    text-align: center;
+    color: #0084FF;
+}
+#main .woman {
+    padding-left: 20px;
+    float: left;
+}
+#main .woman h1 {
+    text-align: center;
+    color: #FF0078;
+}
+#main .common h2 {
+    padding-top: 10px;
+    text-align: center;
+}
